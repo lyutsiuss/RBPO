@@ -12,6 +12,14 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
+//TODO: 1. Откуда взялась "упрощённая" лицензия и зачем она нужна?
+//TODO: 2. createFullLicense - user устанавливается при первой активации
+//TODO: 3. updateLicense - код лицензии не должен меняться
+//TODO: 4. activateLicense - нужно проверять, что повторную активацию производит тот же пользователь, что и первую
+//TODO: 5. boolean firstActivation = false; - не понятно, для чего этот флаг
+//TODO: 6. activateLicense - при первой активации нужно устанавливать пользователя и дату окончания
+//TODO: 7. buildTicket - отсутствует цифровая подпись
+
 @Service
 public class LicenseService {
     private final LicenseRepository licenseRepository;

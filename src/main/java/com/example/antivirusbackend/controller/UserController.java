@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Добавить авторизацию
+//TODO: 2. getAllUsers - вернёт и все пароли?
+
 @RestController
 @RequestMapping("/users")
 public class UserController {

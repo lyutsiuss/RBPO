@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Нужно добавить авторизацию
+//TODO: 2. createLicense - кто вам присылает код? Он должен генерироваться
+
 @RestController
 @RequestMapping("/licenses")
 public class LicenseController {

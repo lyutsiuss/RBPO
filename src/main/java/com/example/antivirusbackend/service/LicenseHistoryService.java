@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.List;
 
+//TODO: 1. deleteHistory - нельзя удалять записи из аудита
+
 @Service
 public class LicenseHistoryService {
     private final LicenseHistoryRepository licenseHistoryRepository;

@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Должна быть авторизация
+
 @RestController
 @RequestMapping("/devices")
 public class DeviceController {

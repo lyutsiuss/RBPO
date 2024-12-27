@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+//TODO: 1. createDevice - потенциально создаёт дубликаты устройств
+//TODO: 2. updateDevice - а точно ли нужно менять пользователя
+
 @Service
 public class DeviceService {
     private final DeviceRepository deviceRepository;

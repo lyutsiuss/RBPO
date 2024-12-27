@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Нельзя модифицировать эту таблицу извне. Можно только читать
+
 @RestController
 @RequestMapping("/licensehistory")
 public class LicenseHistoryController {

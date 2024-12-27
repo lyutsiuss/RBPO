@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 import java.security.Key;
 import java.util.Date;
 
+//TODO: 1. Почему секрет генерируется, а не берётся из системы?
+
 @Component
 public class JwtTokenProvider {
 

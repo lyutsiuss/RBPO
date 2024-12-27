@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Эту таблицу нельзя изменять извне
+
 @RestController
 @RequestMapping("/devicelicense")
 public class DeviceLicenseController {

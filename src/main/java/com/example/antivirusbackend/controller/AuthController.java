@@ -5,6 +5,8 @@ import com.example.antivirusbackend.repository.UserRepository;
 import com.example.antivirusbackend.security.JwtTokenProvider;
 import org.springframework.web.bind.annotation.*;
 
+//TODO: Неверная структура проекта. Пакеты должны начинаться с ru.mtuci.имя_проекта
+
 //TODO: 1. Почему чувствительные данные передаются в параметрах запроса?
 //TODO: 2. login - почему нельзя сразу найти пользователя в БД по логину? Если их будет миллион, вы всех в память будете загружать?
 //TODO: 3. register - зачем дважды загружать в память всю таблицу пользователей?
